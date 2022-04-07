@@ -1,0 +1,162 @@
+﻿1. Mencantumkan file (ls)
+Untuk melihat dartar file di sistem UNIX atau Linux
+najmuddin@najmuddin-Aspire-E5-475:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+
+2. ls -R
+ls -R untuk menampilkan semua file tidak hanya di direktori tetapi juga subdirektori
+najmuddin@najmuddin-Aspire-E5-475:~$ ls -R
+.:
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+
+./Desktop:
+
+./Documents:
+env.txt  kernel-linux.txt
+
+./Downloads:
+
+./Music:
+
+./Pictures:
+
+./Public:
+
+./Templates:
+
+./Videos:
+
+3. ls -al
+ls -al memberikan informasi rinci tentang file
+najmuddin@najmuddin-Aspire-E5-475:~$ ls -al
+total 120
+drwxr-xr-x 17 najmuddin najmuddin  4096 Apr  6 13:29 .
+drwxr-xr-x  3 root      root       4096 Apr  6  2022 ..
+-rw-------  1 najmuddin najmuddin   232 Apr  6 13:00 .bash_history
+-rw-r--r--  1 najmuddin najmuddin   220 Apr  6  2022 .bash_logout
+-rw-r--r--  1 najmuddin najmuddin  3771 Apr  6  2022 .bashrc
+drwx------ 11 najmuddin najmuddin  4096 Apr  6 12:39 .cache
+drwxrwxr-x  4 najmuddin najmuddin  4096 Apr  6  2022 .cinnamon
+drwxr-xr-x 15 najmuddin najmuddin  4096 Apr  6 12:40 .config
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Desktop
+-rw-r--r--  1 najmuddin najmuddin    27 Apr  6  2022 .dmrc
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6 14:07 Documents
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Downloads
+drwx------  3 najmuddin najmuddin  4096 Apr  6  2022 .gnupg
+-rw-r--r--  1 najmuddin najmuddin    22 Apr  6  2022 .gtkrc-2.0
+-rw-r--r--  1 najmuddin najmuddin   516 Apr  6  2022 .gtkrc-xfce
+drwxrwxr-x  3 najmuddin najmuddin  4096 Apr  6  2022 .local
+drwx------  4 najmuddin najmuddin  4096 Apr  6 12:19 .mozilla
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Music
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Pictures
+-rw-r--r--  1 najmuddin najmuddin   807 Apr  6  2022 .profile
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Public
+-rw-r--r--  1 najmuddin najmuddin     0 Apr  6 12:43 .sudo_as_admin_successful
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Templates
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 .themes
+drwxr-xr-x  2 najmuddin najmuddin  4096 Apr  6  2022 Videos
+-rw-------  1 najmuddin najmuddin    68 Apr  6 13:29 .Xauthority
+-rw-------  1 najmuddin najmuddin  8009 Apr  6 13:30 .xsession-errors
+-rw-------  1 najmuddin najmuddin 10332 Apr  6 13:01 .xsession-errors.old
+
+4. ls -a
+ls -a untuk melihat file yang disembunyikan
+najmuddin@najmuddin-Aspire-E5-475:~$ ls -a
+.              .config     .gtkrc-xfce  .sudo_as_admin_successful
+..             Desktop     .local       Templates
+.bash_history  .dmrc       .mozilla     .themes
+.bash_logout   Documents   Music        Videos
+.bashrc        Downloads   Pictures     .Xauthority
+.cache         .gnupg      .profile     .xsession-errors
+.cinnamon      .gtkrc-2.0  Public       .xsession-errors.old
+
+5. mkdir
+membuat derektori / folder { mkdir }
+najmuddin@najmuddin-Aspire-E5-475:~$ mkdir najmuddin
+
+6. mv
+mv (move) menganti nama direktiri
+najmuddin@najmuddin-Aspire-E5-475:~$ mv
+mv: missing file operand
+Try 'mv --help' for more information.
+
+
+7. Ctrl + c,
+Ctrl + c, untuk menyalin teks dari sumbernya
+najmuddin@najmuddin-Aspire-E5-475:~$ ctrl + c,
+
+Command 'ctrl' not found, did you mean:
+
+  command 'curl' from deb curl (7.68.0-1ubuntu2.7)
+  command 'ctel' from deb clusterssh (4.14-1)
+  command 'ctr' from deb containerd (1.5.5-0ubuntu3~20.04.1)
+  command 'ctpl' from deb ctpl (0.3.4+dfsg-1)
+
+Try: sudo apt install <deb name>
+
+8. pr -x
+pr _x untuk membagi data menjadi kolom
+najmuddin@najmuddin-Aspire-E5-475:~$ pr -x
+pr: invalid option -- 'x'
+Try 'pr --help' for more information.
+9. apt
+apt untuk menginstal atau menghapus sebuah paket
+najmuddin@najmuddin-Aspire-E5-475:~$ apt
+apt
+Usage: apt command [options]
+       apt help command [options]
+
+Commands:
+  add-repository   - Add entries to apt sources.list
+  autoclean        - Erase old downloaded archive files
+  autopurge        - Remove packages with their configuration files and automatically remove all unused packages
+  autoremove       - Remove automatically all unused packages
+  build            - Build binary or source packages from sources
+  build-dep        - Configure build-dependencies for source packages
+  changelog        - View a package's changelog
+  check            - Verify that there are no broken dependencies
+  clean            - Erase downloaded archive files
+  contains         - List packages containing a file
+  content          - List files contained in a package
+  deb              - Install a .deb package
+  depends          - Show raw dependency information for a package
+  dist-upgrade     - Upgrade the system by removing/installing/upgrading packages
+  download         - Download the .deb file for a package
+  edit-sources     - Edit /etc/apt/sources.list with your preferred text editor
+  dselect-upgrade  - Follow dselect selections
+  full-upgrade     - Same as 'dist-upgrade'
+  held             - List all held packages
+  help             - Show help for a command
+  hold             - Hold a package
+  install          - Install/upgrade packages
+  list             - List packages based on package names
+  policy           - Show policy settings
+  purge            - Remove packages and their configuration files
+  recommends       - List missing recommended packages for a particular package
+  rdepends         - Show reverse dependency information for a package
+  reinstall        - Download and (possibly) reinstall a currently installed package
+  remove           - Remove packages
+  search           - Search for a package by name and/or expression
+  show             - Display detailed information about a package
+  showhold         - Same as 'held'
+  showsrc          - Display all the source package records that match the given package name
+  source           - Download source archives
+  sources          - Same as 'edit-sources'
+  unhold           - Unhold a package
+  update           - Download lists of new/upgradable packages
+  upgrade          - Perform a safe upgrade
+  version          - Show the installed version of a package
+
+10. sudo
+memungkinkan pengguna biasa untuk menjalankan progam dengan hak keamanan superuser atau root
+
+
+najmuddin@najmuddin-Aspire-E5-475:~$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...

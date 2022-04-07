@@ -1,0 +1,9 @@
+﻿5.4.0-91-generic
+Static hostname: najmuddin-Aspire-E5-475
+         Icon name: computer-laptop
+           Chassis: laptop
+        Machine ID: 09143d0261be487380a9ec9bf41d5922
+           Boot ID: 1eb0ea0e87c8423aabe675f3cc2d7adf
+  Operating System: Linux Mint 20.3
+            Kernel: Linux 5.4.0-91-generic
+      Architecture: x86-64
