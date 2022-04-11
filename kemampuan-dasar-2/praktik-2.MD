@@ -23,3 +23,25 @@ Di dunia proyek software, tidak dapat dihindari bahwa kita akan menemukan diri k
    7. Next
    8. masukan nama pengguna atau email
    9. selesai
+
+ 2. Untuk kolaborasi; digunakan untuk memberikan akses Read + Write access ke satu repositori yang dimiliki oleh akun pribadi.Untuk menambahkan Collaborators, (akun pribadi Github lainnya).
+dan untuk langkah- langkahnya setelah kita berkolaborasi maka akan tau...
+
+ #. Alat 2: Pull Requests
+ pull Requests adalah cara yang mengunakan untuk berkontribusi pada reepositori secara mandiri dengan fork itu. pada akhirnya, jika kita mau, kita dapat mengirim permintaan tarik ke pemilik repositori untuk menggabungkan perubahan kode kita. Pull request itu sendiri dapat memicu diskusi untuk kualitas kode, fitur atau bahkan strategi umum.
+ Sekarang mari kita melalui langkah-langkah dasar untuk pull request.
+Ada dua model pull request di Github:
+ - Fork & Pull model - Digunakn di repositori publik yang akan memiliki akses push
+ - Share Repository model - Digunakan dalam repositori pribadi yang kita miliki akses push. Fork tidak diperlukan adalah case ini.
+
+langkah-langkah pull requests
+1. masuk akun github
+2. lanjut ke organisasion
+3. klik / pilih yang mau di pull
+4. masuk ke code
+5. sebelum meng copy code-nya, silahkan buat folder
+6. setelah masuk di dalam folder terus buka terminal
+7. setelah git clone maka tinggal masukan code yang sudah di copy
+
+
+
