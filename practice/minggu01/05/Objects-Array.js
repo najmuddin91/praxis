@@ -5,3 +5,4 @@
 //                 (table[1] + table[3]) *
 //                 (table[0] + table[2]));}
 //   console.log(phi([76, 9, 4, 1]));
+

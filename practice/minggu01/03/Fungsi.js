@@ -29,4 +29,3 @@
 // (function()
 // {console.log(myvar); var myvar = 'local value';})();
 
-(+'1.1') + (+'1.1')

@@ -1,0 +1,14 @@
+Peta adalah kumpulan item data yang dikunci, seperti halnya Object. 
+Tetapi perbedaan utama adalah bahwa Peta memungkinkan kunci jenis apa pun.
+
+Metode dan propertinya adalah:
+
+-  new Map() – membuat peta.
+-  map.set(key, value) – menyimpan nilai dengan key.
+-  map.get(key) – mengembalikan nilai dengan kunci, tidak ditentukan jika kunci tidak ada di peta.
+-  map.has(key) – mengembalikan nilai true jika kunci ada, false jika tidak.
+-  map.delete(key) – menghapus nilai dengan kunci.
+-  map.clear() – menghapus semuanya dari peta.
+-  map.size – mengembalikan jumlah elemen saat ini.
+
+
