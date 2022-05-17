@@ -23,15 +23,64 @@
 // alert(3);
 
 // Callback ("Function yang dieksekusi setelah fungsi lain selesai dijalankan")
-function halo(nama) {
-    alert('halo, ${nama}');
-}
+// function halo(nama) {
+//     alert('halo, ${nama}');
+// }
 
-function tampilkanPesan(Callback) {
-    const nama = prompt('Masukkan Nama :');
-    Callback(nama);
-}
+// function tampilkanPesan(Callback) {
+//     const nama = prompt('Masukkan Nama :');
+//     Callback(nama);
+// }
 
-tampilkanPesan(halo);
+// tampilkanPesan(nama => alert('halo, ${najmuddin}'));
 
-contoh sederhana Diatas bisa disebut synchronnous Callback
+//contoh sederhana Diatas bisa disebut synchronnous Callback
+
+//contoh lain synchronnous Callback di bawah ini
+// const mhs = [
+//     {
+//         "nama": "najmuddin ahmad",
+//         "nrp": "098483377382",
+//         "email": "kendil.lawas@gmail.com",
+//         "jurusan": "sarjana ekonomi",
+//         "idDosenWali": 1
+//     },
+//     {
+//         "nama": "ardiansyah",
+//         "nrp": "098347757847",
+//         "email": "ardi.syah@gamil.com",
+//         "jurusan": "Sarjana hukum",
+//         "idDosenWali": 2 
+//     },
+//     {
+//         "nama": "eko prasetyo",
+//         "nrp": "0993845573848",
+//         "email": "eko.tyo@gmail.com",
+//         "jurusan": "matematika",
+//         "idDosenWAli": 2
+//     }    
+// ];
+// console.log('mulai');
+// mhs.forEach(m => console.log(m.nama));
+// console.log('selesai');
+
+// Promise / janji
+// promise adalah object yang merepresentasikan keberasilan / kegagalan sebuah event yg asynchronous di masa yg akan datang.
+// janji (terpenuhi / ingkar)
+// states / keadaan ( fulfilled(terpenuhi) / rejected(ingkar) / pending)
+// fungsi callback (resolve / reject / finally)
+// aksi (then / cath)
+
+// contoh Promise
+let ditepati = true;
+const janji1 = new Promise((resolve, reject) => {
+    if( ditepati ) {
+        resolve('janji telah ditepati!');
+    } else {
+        reject('ingkar janji..');
+    }
+});
+
+janji1
+.then(response => console.log('ok! : ' + response))
+.catch(response => console.log('not ok! : ' + response));
