@@ -72,15 +72,42 @@
 // aksi (then / cath)
 
 // contoh Promise
-let ditepati = true;
-const janji1 = new Promise((resolve, reject) => {
-    if( ditepati ) {
-        resolve('janji telah ditepati!');
-    } else {
-        reject('ingkar janji..');
-    }
-});
+// let ditepati = true;
+// const janji1 = new Promise((resolve, reject) => {
+//     if( ditepati ) {
+//         resolve('janji telah ditepati!');
+//     } else {
+//         reject('ingkar janji..');
+//     }
+// });
 
-janji1
-.then(response => console.log('ok! : ' + response))
-.catch(response => console.log('not ok! : ' + response));
+// janji1
+// .then(response => console.log('ok! : ' + response))
+// .catch(response => console.log('not ok! : ' + response));
+
+//Contoh Async await
+// const coba = new Promise(resolve => {
+//     setTimeout(()=> {
+//         resolve('selesai')
+//     },2000); 
+// });
+//console.log(coba);
+//coba.then(() => console.log(coba));
+
+function cobaPromise() {
+    return new new Promise(resolve => {
+        setTimeout(()=> {
+            resolve('selesai')
+        },2000); 
+    });
+}
+
+// const coba = cobaPromise();
+// coba.then(() => console.log(coba));
+
+async function cobaAsync() {
+    const coba = await cobaPromise();
+    console.log(coba);
+}
+
+cobaAsync();
