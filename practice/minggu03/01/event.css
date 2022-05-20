@@ -1,0 +1,29 @@
+    /* background-color:blue;
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transition: border-radius 0.25s ease; */
+
+
+.container {
+    height: 500px;
+    margin: 100px auto;
+    width: 500px;
+    }
+    
+    .cell {
+    background-color: #c979a9;
+    background-size: contain;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    height: 10%;
+    width: 10%;
+    }
+    
+    .active {
+    background-color: #2ba8da;
+    }
