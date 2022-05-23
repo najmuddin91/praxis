@@ -1,6 +1,6 @@
 DOM
 
-Document Object Model ( DOM ) adalah representasi data dari objek yang terdiri dari struktur dan konten dokumen di web.
+Document Object Model ( DOM ) adalah representasi data dari objek yang terdiri dari struktur dan konten dokumen di web...
 
     DOM SELECTION METHOD
         getElementById ()
