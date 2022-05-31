@@ -25,7 +25,7 @@ Jika kita membuka inspect pada document dan mengetik judul pada console maka aka
 
 Maka yang akan keluar adalah :
 
-	HTMLCollection { 0: p.p1, 1: p.p2, 2: p.p3, 3: p, 			length: 4 }
+	HTMLCollection { 0: p.p1, 1: p.p2, 2: p.p3, 3: p, 			length: 4 }''
 
     getElementsByClassName () - Mengembalikan HTMLColection Menggunakan HTML yang sama kita mencoba memanggil class p1 :
 
