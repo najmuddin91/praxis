@@ -2,7 +2,7 @@ setelah pelatihan dasar 1 selesai, maka ada beberapa code penting yang bisa kita
 1. sudo su
 Berfungsi untuk login sebagai root/pengguna tertinggi
 2. mkdir (make directory)
-Berfungsi untuk membuat direktori
+Berfungsi untuk membuat direktori...
 Penggunaan : mkdir [nama-direktori]
 Contoh : root@ubuntu/home/#mkdir bin (Membuat direktori bernama “bin”)
 3. rm (remove file)
