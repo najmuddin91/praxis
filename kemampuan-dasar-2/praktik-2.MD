@@ -13,7 +13,7 @@ Di dunia proyek software, tidak dapat dihindari bahwa kita akan menemukan diri k
 1. Organisasi - Pemilik organisasi dapat membuat banyak tim dengan tingkat izin yang berbeda untuk berbagai repositori
 2. kolaborasi - Pemilik repositori dapat menambahkan kolaborator dengan akses Baca + Tulis untuk satu reposit
 
- 1. Untuk Organisasi; Akun pengguna Github apa pun sudah dapat membuat Organizations  gratis untuk repositori kode sumber terbuka. Untuk membuat Organization, cukup mengikuti langkah-langkah berikut;
+ 1. Untuk Organisasi; Akun pengguna Github apa pun sudah dapat membuat Organizations  gratis untuk repositori kode sumber terbuka. Untuk membuat Organization, cukup mengikuti langkah-langkah berikut;...
    1. klik Organizations
    2. New Organizations
    3. klik create a free aorganization
