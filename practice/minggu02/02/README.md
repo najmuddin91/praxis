@@ -354,7 +354,7 @@ D.FOR ... IN STATEMENT
 			  txt += person[x] + " ";
 			} {console.log(txt)}
 
-E.FOR IN DALAM ARRAYS
+E.FOR IN DALAM ARRAYS.
 
 		       var a=[5,4,3,2,1];       // pembuatan array
 			var b;                   // variabel penampung
