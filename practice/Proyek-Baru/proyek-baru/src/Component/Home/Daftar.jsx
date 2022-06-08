@@ -5,8 +5,8 @@ import { Navbar,Nav,Container,NavDropdown} from "react-bootstrap";
 function Daftar (){
     return(
           <Navbar  expand="lh">
-      <Container>
-          <Navbar.Brand href="#home">DATA SEKOLAHAN</Navbar.Brand>
+      <Container style={{marginTop: "70px"}}>
+          <Navbar.Brand href="#home">DATA SEKOLAH</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

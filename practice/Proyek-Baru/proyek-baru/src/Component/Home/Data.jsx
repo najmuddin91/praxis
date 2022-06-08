@@ -6,9 +6,7 @@ import Swal from "sweetalert2";
 
 function Home (){
     const [Nama,setNama] = useState("");
-    const [Daerah,setDaerah] =useState("");
-    const [tahunMasuk, settahunMasuk] = useState ("");
-    const [tahunKeluar, settahunKeluar] = useState ("");
+    const [TempatTanggalLahir,setTempatTanggalLahir] =useState("");
     const [NoHp, setNoHp] = useState ("");
     const [Email, setEmail] = useState(""); 
     const [pesan, setPesan] = useState ("");
@@ -21,9 +19,7 @@ function Home (){
                 body:JSON.stringify({
 
                 'Nama': Nama,
-                'Daerah': Daerah,
-                'Tahun Masuk': tahunMasuk,
-                'tahunKeluar': tahunKeluar,
+                'TempatTanggalLahir': TempatTanggalLahir,
                 'NoHp': NoHp,
                 'Email': Email,
 
@@ -33,9 +29,7 @@ function Home (){
              await res.json();
             if (res.status === 200){
                 setNama("");
-                setDaerah("");
-                settahunMasuk("");
-                settahunKeluar("");
+                setTempatTanggalLahir("");
                 setNoHp("");
                 setEmail("");
                 setPesan ("Sukses");
@@ -54,12 +48,13 @@ function Home (){
       });
     };
     return(
-      <Fragment>
+      <div className="text-center w-100">
+      <Fragment className="text-center w-100">
            <Daftar/>
            
-           <Form onSubmit={handleSubmit} style={{padding:"50px"}}>
+           <Form onSubmit={handleSubmit} className="text-center w-100">
            <h2> Isi Identitas Anda!</h2>
-           <Form.Group className="mb-3">
+           <Form.Group className="text-canter w-100">
              <FormLabel>Nama</FormLabel>
              <FormControl style={{width:"450px"}} type="text" 
              name="Nama"  
@@ -67,25 +62,11 @@ function Home (){
              onChange={(e) => setNama (e.target.value)}/>
            </Form.Group>
            <Form.Group className="mb-3" >
-             <FormLabel>Daerah</FormLabel>
-             <FormControl style={{width:"450px"}}  type="daerah" 
-             name="Daerah" 
-             placeholder="Daerah"
-             onChange={(e) => setDaerah (e.target.value)} />
-           </Form.Group>
-           <Form.Group className="mb-3" >
-             <FormLabel>Tahun Masuk</FormLabel>
-             <Form.Control style={{width:"450px"}}  type="tahunm"
-              name="Tahun Masuk" 
-              placeholder="Tahun Masuk" 
-              onChange={(e) => settahunMasuk (e.target.value)}/>
-           </Form.Group>
-           <Form.Group className="mb-3" >
-             <FormLabel>Tahun Keluar</FormLabel>
-             <Form.Control style={{width:"450px"}}  type="tahunk" 
-             name="Tahun Keluar" 
-             placeholder="Tahun Keluar" 
-             onChange={(e) => settahunKeluar (e.target.value)}/>
+             <FormLabel>Tempat Tanggal Lahir</FormLabel>
+             <FormControl style={{width:"450px"}}  type="Tempat Tangga Lahir" 
+             name="Tempat anggal Lahir" 
+             placeholder="Tempat Tanggal Lahir"
+             onChange={(e) => setTempatTanggalLahir (e.target.value)} />
            </Form.Group>
            <Form.Group className="mb-3" >
              <FormLabel>No.hp</FormLabel>
@@ -110,6 +91,7 @@ function Home (){
          </Form>
         
         </Fragment>
+      </div>
     );
 }
 export default Home;

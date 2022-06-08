@@ -11,9 +11,9 @@ const Login = () => {
     <div className="cover" >
     <Container id="main-container" className="d-grid h-100" style={{ marginTop: "150px"}}>
     <Form id="Login" className="text-center w-100">
-            <h1 className="fs-2 fw-normal"> DATA SEKOLAHAN </h1>
+            <h1 className="fs-2 fw-normal"> DATA SEKOLAH </h1>
       <Form.Text className="text-muted">
-        Jika anda adalah Admin Kepustakan, silahkan masuk melalui form ini.
+        Jika anda adalah Admin Sekolah, silahkan masuk melalui form ini.
       </Form.Text>
     <Form.Group className="mb-3" >
       <Form.Control type="name" placeholder="username" />
