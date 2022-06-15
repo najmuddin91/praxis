@@ -2,7 +2,7 @@ import React from 'react'
 
 function Daftar() {
   return (
-    <div>Daftar Baru</div>
+    <div>Daftar maih biasa</div>
   )
 }
 
