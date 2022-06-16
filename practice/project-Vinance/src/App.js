@@ -3,8 +3,9 @@ import './App.css';
 import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom';
 import Daftar from './Components/Daftar';
 import Login from './Components/Login';
-import Menu from './Components/Menu';
-import FormItem from 'antd/lib/form/FormItem';
+import Register from './Components/Register';
+import FormDisabledDemo from './Components/FormDisabledDemo';
+import Data from './Components/Data';
 
 function App() {
   return (
@@ -12,8 +13,11 @@ function App() {
       <h2>Halaman Pertama Saya</h2>
       <Router>
         <Routes>
-        <Route path="Daftar" element={<Daftar/>}/>
-        <Route path="Menu" element={<Menu/>}/>
+        <Route path="daftar" element={<Daftar/>}/>
+        <Route path="register" element={<Register/>}/>
+        <Route path="login" element={<Login/>}/>
+        <Route path="formDisabledDemo" element={<FormDisabledDemo/>}/>
+        <Route path="data" element={<Data/>}/>
         </Routes>
       </Router>
     </header>
