@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,  Routes, Route, } from 'react-router-dom';
 import Daftar from './Components/Daftar';
 import Login from './Components/Login';
 import Register from './Components/Register';
@@ -11,6 +11,8 @@ function App() {
   return (
     <header>
       <h2>Halaman Pertama Saya</h2>
+      <button>Masuk</button>
+      <p >apaan siii</p>
       <Router>
         <Routes>
         <Route path="daftar" element={<Daftar/>}/>

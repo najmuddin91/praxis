@@ -25,7 +25,7 @@ const Login = () => {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
-    >
+      >
       <Form.Item
         label="Username"
         name="username"
@@ -47,8 +47,7 @@ const Login = () => {
             required: true,
             message: 'Please input your password!',
           },
-        ]}
-      >
+        ]}>
         <Input.Password />
       </Form.Item>
 
@@ -58,8 +57,7 @@ const Login = () => {
         wrapperCol={{
           offset: 8,
           span: 16,
-        }}
-      >
+        }}>
         <Checkbox>Remember me</Checkbox>
       </Form.Item>
 
@@ -67,8 +65,7 @@ const Login = () => {
         wrapperCol={{
           offset: 8,
           span: 16,
-        }}
-      >
+        }}>
         <Button type="primary" htmlType="submit">
           Submit
         </Button>
