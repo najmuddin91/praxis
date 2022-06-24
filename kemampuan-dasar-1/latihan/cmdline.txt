@@ -9,7 +9,7 @@ najmuddin@najmuddin-Aspire-E5-475:~$ ls -R
 .:
 Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 
-./Desktop:
+./Desktop:....
 
 ./Documents:
 env.txt  kernel-linux.txt
